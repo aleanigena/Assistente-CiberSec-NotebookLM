@@ -8,8 +8,11 @@ https://www.auzaccybersecurity.com.br/guia-geral-de-pentest
 
 - Fontes em videos 
 https://www.youtube.com/watch?v=efz0gwQjqzA
+
 https://www.youtube.com/watch?v=0B6yXTJwLtI
+
 https://www.youtube.com/watch?v=5EYLBOgBU9w
+
 https://www.youtube.com/watch?v=_IHzFCABtLQ
 
 - Fontes em PDF
