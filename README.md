@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=_IHzFCABtLQ
 - Fontes em PDF
   
 [Pentest na prática_ como identificar e corrigir vulnerabilidades.pdf](https://github.com/user-attachments/files/26381554/Pentest.na.pratica_.como.identificar.e.corrigir.vulnerabilidades.pdf)
+
 [Hacking com Kali Linux- Técnicas práticas para testes de -- James Broad & Andrew Bindner [Broad, James] -- ( WeLib.org ).pdf](https://github.com/user-attachments/files/26381552/Hacking.com.Kali.Linux-.Tecnicas.praticas.para.testes.de.--.James.Broad.Andrew.Bindner.Broad.James.--.WeLib.org.pdf)
 
 
