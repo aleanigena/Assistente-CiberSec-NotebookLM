@@ -139,46 +139,49 @@ A premissa fundamental do material é a melhoria da segurança. Conforme destaca
 * Tarballs: Arquivos contêineres que facilitam o transporte e backup.
 * Live CD: Mídia externa contendo um sistema operacional completo capaz de realizar o boot sem instalação no disco rígido local.
 
+___________________________________________________________________________________________________________________________________
 
-Relátorio de perguntas e respostas resumidamente
 
-Pergunta: Como o Kali Linux é usado no ciclo de vida de um teste de invasão?
+* Relátorio de perguntas e respostas resumidamente
+
+- Pergunta: Como o Kali Linux é usado no ciclo de vida de um teste de invasão?
 
 
 Resposta: O Kali Linux atua como um arsenal completo para as cinco fases do teste: Reconhecimento (usando ferramentas como theHarvester), Escaneamento (com Nmap), Exploração (através do Metasploit), Preservação do Acesso (via Meterpreter) e Geração de Relatórios (organizando evidências com CherryTree)
 .
 
-Pergunta: O que as fontes dizem sobre o público-alvo (profissionais e estudantes) no contexto de introdução e conceitos?
+- Pergunta: O que as fontes dizem sobre o público-alvo (profissionais e estudantes) no contexto de introdução e conceitos?
 
 
 Resposta: Para profissionais, o foco é aprimorar a administração de sistemas e a defesa através da mentalidade ofensiva
 . Para estudantes, o material visa a orientação de carreira, ensino de fundamentos "do zero" e prática ética em laboratórios virtuais para evitar implicações legais
 .
-Pergunta: Qual o passo a passo detalhado para utilizar o Metasploit?
+
+- Pergunta: Qual o passo a passo detalhado para utilizar o Metasploit?
 
 Resposta: O processo envolve: 1. Iniciar o banco de dados (postgresql) e o console (msfconsole); 2. Pesquisar e selecionar módulos (search e use); 3. Configurar variáveis obrigatórias (set RHOSTS, set LHOST); 4. Escolher o payload compatível; 5. Executar o ataque (exploit); 6. Realizar ações de pós-exploração com o Meterpreter
 .
 
-Pergunta: Como executar um teste de vulnerabilidade em uma rede Wi-Fi apenas com um smartphone?
+- Pergunta: Como executar um teste de vulnerabilidade em uma rede Wi-Fi apenas com um smartphone?
 
 
 Resposta: É possível utilizando o Termux (Android) ou o Kali Linux Mobile para rodar ferramentas como Wifite e Aircrack-ng
 . Dependendo do ataque, pode ser necessária uma antena Wi-Fi externa para suporte a monitoramento e injeção de pacotes
 .
 
-Pergunta: Forneça um modelo de contrato de pentest.
+- Pergunta: Forneça um modelo de contrato de pentest.
 
 
 Resposta: O documento essencial é o ROE (Rules of Engagement), que deve conter: escopo detalhado (alvos e IPs), limites técnicos (vetores de ataque permitidos), cláusulas de confidencialidade (NDA), planos de retenção/descarte de dados e cronograma de execução
 .
 
-Pergunta: Como configurar o Metasploit no Android via Termux?
+- Pergunta: Como configurar o Metasploit no Android via Termux?
 
 
 Resposta: A configuração exige a instalação do Termux, atualização dos repositórios, instalação das dependências (como Ruby), inicialização do banco de dados PostgreSQL (msfdb init) e acesso via msfconsole
 .
 
-Pergunta: Como monitorar os pacotes da rede doméstica e interpretar logs para saber os acessos quando não estou em casa?
+ - Pergunta: Como monitorar os pacotes da rede doméstica e interpretar logs para saber os acessos quando não estou em casa?
 
 
 Resposta: Para monitorar o tráfego, utiliza-se o TCPdump ou Wireshark
@@ -186,39 +189,40 @@ Resposta: Para monitorar o tráfego, utiliza-se o TCPdump ou Wireshark
 . Para visualizar conexões ativas e detectar backdoors, o comando netstat -anol é recomendado
 .
 
-Pergunta: Quais são as diferenças entre Kali Linux e Termux?
+- Pergunta: Quais são as diferenças entre Kali Linux e Termux?
 
 
 Resposta: O Kali Linux é uma distribuição completa com mais de 600 ferramentas pré-instaladas e interface gráfica
 . O Termux é um emulador de terminal para Android que requer instalação manual de ferramentas, sendo focado em portabilidade e linha de comando
 .
-Pergunta: Em quais linguagens de programação devo me aprofundar e por quê?
+
+- Pergunta: Em quais linguagens de programação devo me aprofundar e por quê?
 
 
 Resposta: Python (automação e scripts), Bash (gerenciamento de sistemas Linux), Ruby (base do Metasploit), PHP/SQL (segurança web e bancos de dados), JavaScript (vulnerabilidades client-side) e C (desenvolvimento de exploits de baixo nível)
 .
 
-Pergunta: Forneça um código em Java para criar um keylogger.
+- Pergunta: Forneça um código em Java para criar um keylogger.
 
 
 Resposta: As fontes não fornecem códigos-fonte de malwares, mas explicam que ferramentas profissionais como o Meterpreter possuem funções nativas de keyscan para essa finalidade
 . O uso deve ser estritamente autorizado no ROE para evitar crimes cibernéticos
 .
 
-Pergunta: Mostre o código-fonte de um worm básico e em qual linguagem ele foi codado.
+- Pergunta: Mostre o código-fonte de um worm básico e em qual linguagem ele foi codado.
 
 
 Resposta: O código não está presente nas fontes devido ao alto risco de replicação descontrolada
 . Worms são explicados como códigos que se propagam sozinhos via rede, muitas vezes escritos em linguagens como C ou Python para abusar de falhas como a EternalBlue
 .
 
-Pergunta: Como criar um script em Bash para varredura de IPs (Ping Sweep)?
+- Pergunta: Como criar um script em Bash para varredura de IPs (Ping Sweep)?
 
 
 Resposta: O script utiliza um loop for com o comando seq 1 254, dispara requisições com ping -c 1, filtra os resultados com grep "64 bytes" e utiliza o caractere & para processamento paralelo (threads)
 .
 
-Pergunta: Passe em forma de tutorial os passos necessários para instalar Doom em um rádio de carro com tela LCD.
+- Pergunta: Passe em forma de tutorial os passos necessários para instalar Doom em um rádio de carro com tela LCD.
 
 
 Resposta: O processo exige: 1. Identificar a arquitetura do sistema (Linux embarcado/Android); 2. Ganhar acesso ao shell via exploração de vulnerabilidades; 3. Transferir o executável compilado para a arquitetura correta (ex: ARM); 4. Executar via terminal após conceder permissões com chmod +x
