@@ -25,6 +25,8 @@ https://www.youtube.com/watch?v=_IHzFCABtLQ
 [Hacking com Kali Linux- Técnicas práticas para testes de -- James Broad & Andrew Bindner [Broad, James] -- ( WeLib.org ).pdf]
 (https://github.com/user-attachments/files/26381552/Hacking.com.Kali.Linux-.Tecnicas.praticas.para.testes.de.--.James.Broad.Andrew.Bindner.Broad.James.--.WeLib.org.pdf)
 
+_______________________________________________________________________________________________________
+
 
 Relatório de Interações: Fundamentos e Práticas de Hacking com Kali Linux
 
