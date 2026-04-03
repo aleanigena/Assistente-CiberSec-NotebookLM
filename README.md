@@ -2,7 +2,7 @@
 
 >> https://notebooklm.google.com/notebook/f28c66f1-7912-4405-a281-dc891d3e764b <<
 
-Objetivo: criar um assistente em ciber segurança para auxiliar e resolver problemas cotidianos, pronta e rapida resposta na mitigação de vazamento de dados ou ataque e me forneça dados relevantes, combinando a visão dos melhores profissionais da área 
+Objetivo: criar um assistente em ciber segurança para auxiliar e resolver problemas cotidianos, pronta e rápida resposta na mitigação de vazamento de dados ou ataque e me forneça dados relevantes, combinando a visão dos melhores profissionais da área 
 
 - Curadoria de Fontes
 
