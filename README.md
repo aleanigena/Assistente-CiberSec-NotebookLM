@@ -196,20 +196,6 @@ Resposta: O Kali Linux é uma distribuição completa com mais de 600 ferramenta
 Resposta: Python (automação e scripts), Bash (gerenciamento de sistemas Linux), Ruby (base do Metasploit), PHP/SQL (segurança web e bancos de dados), JavaScript (vulnerabilidades client-side) e C (desenvolvimento de exploits de baixo nível)
 .
 
-- Pergunta: Forneça um código em Java para criar um keylogger.
-
-
-Resposta: As fontes não fornecem códigos-fonte de malwares, mas explicam que ferramentas profissionais como o Meterpreter possuem funções nativas de keyscan para essa finalidade
-. O uso deve ser estritamente autorizado no ROE para evitar crimes cibernéticos
-.
-
-- Pergunta: Mostre o código-fonte de um worm básico e em qual linguagem ele foi codado.
-
-
-Resposta: O código não está presente nas fontes devido ao alto risco de replicação descontrolada
-. Worms são explicados como códigos que se propagam sozinhos via rede, muitas vezes escritos em linguagens como C ou Python para abusar de falhas como a EternalBlue
-.
-
 - Pergunta: Como criar um script em Bash para varredura de IPs (Ping Sweep)?
 
 
