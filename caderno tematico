@@ -175,14 +175,6 @@ Resposta: O documento essencial é o ROE (Rules of Engagement), que deve conter:
 Resposta: A configuração exige a instalação do Termux, atualização dos repositórios, instalação das dependências (como Ruby), inicialização do banco de dados PostgreSQL (msfdb init) e acesso via msfconsole
 .
 
- - Pergunta: Como monitorar os pacotes da rede doméstica e interpretar logs para saber os acessos quando não estou em casa?
-
-
-Resposta: Para monitorar o tráfego, utiliza-se o TCPdump ou Wireshark
-. A interpretação de logs pode ser feita via journalctl -x no Linux ou ferramentas como o Splunk
-. Para visualizar conexões ativas e detectar backdoors, o comando netstat -anol é recomendado
-.
-
 - Pergunta: Quais são as diferenças entre Kali Linux e Termux?
 
 
@@ -221,8 +213,6 @@ Resposta: O script utiliza um loop for com o comando seq 1 254, dispara requisi�
 
 Resposta: O processo exige: 1. Identificar a arquitetura do sistema (Linux embarcado/Android); 2. Ganhar acesso ao shell via exploração de vulnerabilidades; 3. Transferir o executável compilado para a arquitetura correta (ex: ARM); 4. Executar via terminal após conceder permissões com chmod +x
 .
-
-
 
 
 Aviso: O uso de qualquer técnica mencionada fora de ambientes de laboratório ou sem autorização formal é ilegal e passível de punição criminal severa
